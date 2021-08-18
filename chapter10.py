@@ -21,10 +21,9 @@ for key,val in counts.items():
     newtup = (key, val)
     lst.append(newtup)
 
-# sort the list items   
-# lst = sorted(lst)
 
-# print sorted items
+
+# sort and print the sorted list items
 for k, v in sorted(lst):
     print(k,v)
 
