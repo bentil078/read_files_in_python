@@ -22,9 +22,9 @@ for key,val in counts.items():
     lst.append(newtup)
 
 # sort the list items   
-lst = sorted(lst)
+# lst = sorted(lst)
 
 # print sorted items
-for k, v in lst:
+for k, v in sorted(lst):
     print(k,v)
 
